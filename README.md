@@ -1,2 +1,2 @@
-# Recibir losdatos del formulario 
+# Recibir los datos del formulario 
 ## Metodo POST
