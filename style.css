@@ -1,0 +1,13 @@
+.fomulario{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: antiquewhite ;
+    width: 25rem;
+
+}
+
+.fomulario input{
+    width: 10rem;
+}
