@@ -1,8 +1,8 @@
 <?php
 
-if(isset($_GET['nombre']) && isset($_GET['descripcion'])){
-    echo "<h1>".$_GET['nombre']."</h1>";
-    echo "<h1>".$_GET['descripcion']."</h1>";
+if(isset($_POST['nombre']) && isset($_POST['descripcion'])){
+    echo "<h1>".$_POST['nombre']."</h1>";
+    echo "<h1>".$_POST['descripcion']."</h1>";
 }else{
     echo "<h1>Hubo un error</h1>";
 }
